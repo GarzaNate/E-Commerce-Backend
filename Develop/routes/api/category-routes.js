@@ -70,7 +70,12 @@ router.delete('/:id', async (req, res) => {
       where: {
         id: req.params.id
       }
-    })
+    });
+    if (!deleteCategory) {
+      res.status(400).json({ message: 'No product with this id!'});
+      return;
+    }
+    res.status(200).json(deleteCategory)
   } catch (err) {
     res.status(500).json(err);
   }
