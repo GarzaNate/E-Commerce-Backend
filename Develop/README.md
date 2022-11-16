@@ -29,3 +29,6 @@ Just me!
 ## Contact
 * Email: nategarza2410@gmail.com
 * Github: GarzaNate
+
+## Walkthrough Video
+* https://drive.google.com/file/d/1TGkN8rg70QSiJsBA62dwMDIu5HDTqDYw/view
